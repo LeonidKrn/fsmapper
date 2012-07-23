@@ -1,8 +1,15 @@
 - dir1:
+    - dir11:
+      - file1
+      - file2
+    - dir12:
+      - file1
+      - file2
     - file1
     - file2
     - file3
   dir2:
     - file1
   dir3:
+    - file1
 

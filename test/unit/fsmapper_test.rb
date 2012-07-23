@@ -1,7 +1,5 @@
-require 'lib/fsmapper'
-require 'test/unit'
-require 'test/test_helper'
+load 'lib/fsmapper.rb'
 
-class TestFsMapper < Test::Unit::TestCase
-
-end
+#class TestFsMapper < Test::Unit::TestCase
+#
+#end

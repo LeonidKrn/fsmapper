@@ -1,6 +1,4 @@
-require 'lib/fsmapper/adapters/fsadapter'
-require 'test/unit'
-require 'test/test_helper'
+load 'lib/fsmapper/adapters/fsadapter.rb'
 
 class TestFsMapper < Test::Unit::TestCase
   def setup
@@ -9,7 +7,7 @@ class TestFsMapper < Test::Unit::TestCase
 
   def test_hash_structure
     fs_adapter = FsAdapter.new(TEST_FS_ROOT)
-    assert_equal(fs_adapter.to_hash, default_file_structure)
+    assert_equal(default_file_structure, fs_adapter.to_hash)
   end
 
   def teardown

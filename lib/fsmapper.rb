@@ -1,2 +1,2 @@
-require 'lib/fsmapper/adapters/fsadapter'
-require 'lib/fsmapper'
+load 'lib/fsmapper/adapters/fsadapter.rb'
+load 'lib/fsmapper/fsmapper.rb'
